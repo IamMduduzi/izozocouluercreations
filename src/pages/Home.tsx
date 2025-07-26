@@ -16,12 +16,12 @@ const Home = () => {
     },
     {
       title: "Graduation Excellence",
-      image: GraduationImage,
+      image: graduationImage,
       description: "Celebrate your academic achievements in sophisticated style."
     },
     {
       title: "Matric Dance Glamour",
-      image: MatricImage,
+      image: matricImage,
       description: "Make your matric dance unforgettable with our stunning designs."
     }
   ];
