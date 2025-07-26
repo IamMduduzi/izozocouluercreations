@@ -7,6 +7,7 @@ import weddingImage from "@/assets/wedding-category.jpg";
 import graduationImage from "@/assets/graduation-category.jpg";
 import matricImage from "@/assets/matric-dance-category.jpg";
 
+
 const Home = () => {
   const featuredWork = [
     {
