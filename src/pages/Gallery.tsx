@@ -125,18 +125,21 @@ const Gallery = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {filteredItems.map((item) => (
-              <Card key={item.id} className="group overflow-hidden hover:shadow-glow transition-all duration-300">
+              <Card key={item.id} className="group overflow-hidden hover:shadow-glow hover:scale-105 hover:-translate-y-3 transition-all duration-500 cursor-pointer border-2 hover:border-primary/50">
                 <div className="relative overflow-hidden">
                   <img
                     src={item.image}
                     alt={item.title}
-                    className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
+                    className="w-full h-80 object-cover group-hover:scale-110 group-hover:rotate-1 transition-all duration-700"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="absolute bottom-4 left-4 right-4 text-white">
-                      <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
+                    <div className="absolute bottom-4 left-4 right-4 text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+                      <h3 className="text-xl font-semibold mb-2 group-hover:scale-105 transition-transform duration-300">{item.title}</h3>
                       <p className="text-sm opacity-90">{item.description}</p>
                     </div>
+                  </div>
+                  <div className="absolute top-4 right-4 w-10 h-10 bg-white/20 rounded-full backdrop-blur-sm flex items-center justify-center opacity-0 group-hover:opacity-100 group-hover:scale-110 transition-all duration-300">
+                    <div className="w-4 h-4 bg-primary rounded-full animate-pulse"></div>
                   </div>
                 </div>
               </Card>

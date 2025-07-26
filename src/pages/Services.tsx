@@ -87,13 +87,13 @@ const Services = () => {
                   description={service.description}
                   image={service.image}
                 />
-                <div className="bg-card p-6 rounded-lg border">
-                  <h4 className="font-semibold mb-4 text-foreground">What's Included:</h4>
+                <div className="bg-card p-6 rounded-lg border hover:shadow-elegant hover:scale-105 hover:-translate-y-1 transition-all duration-300 cursor-pointer group">
+                  <h4 className="font-semibold mb-4 text-foreground group-hover:text-primary transition-colors">What's Included:</h4>
                   <ul className="space-y-2">
                     {service.features.map((feature, idx) => (
-                      <li key={idx} className="flex items-center space-x-2">
-                        <Check className="h-4 w-4 text-primary" />
-                        <span className="text-muted-foreground">{feature}</span>
+                      <li key={idx} className="flex items-center space-x-2 group-hover:translate-x-1 transition-transform duration-300" style={{ transitionDelay: `${idx * 50}ms` }}>
+                        <Check className="h-4 w-4 text-primary group-hover:scale-110 group-hover:rotate-12 transition-all duration-300" />
+                        <span className="text-muted-foreground group-hover:text-foreground transition-colors">{feature}</span>
                       </li>
                     ))}
                   </ul>
@@ -124,12 +124,12 @@ const Services = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
             {processSteps.map((step, index) => (
-              <div key={index} className="text-center space-y-4">
-                <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto text-white font-bold text-lg">
+              <div key={index} className="text-center space-y-4 group cursor-pointer hover:scale-105 transition-all duration-300">
+                <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto text-white font-bold text-lg group-hover:shadow-glow group-hover:scale-110 group-hover:rotate-6 transition-all duration-500">
                   {step.step}
                 </div>
-                <h3 className="text-lg font-semibold text-foreground">{step.title}</h3>
-                <p className="text-sm text-muted-foreground">{step.description}</p>
+                <h3 className="text-lg font-semibold text-foreground group-hover:text-primary transition-colors">{step.title}</h3>
+                <p className="text-sm text-muted-foreground group-hover:text-foreground transition-colors">{step.description}</p>
               </div>
             ))}
           </div>
@@ -147,49 +147,49 @@ const Services = () => {
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-              <div className="bg-card p-8 rounded-lg border">
-                <h3 className="text-2xl font-semibold mb-4 text-foreground">Starting Prices</h3>
+              <div className="bg-card p-8 rounded-lg border hover:shadow-elegant hover:scale-105 hover:-translate-y-2 transition-all duration-300 cursor-pointer group">
+                <h3 className="text-2xl font-semibold mb-4 text-foreground group-hover:text-primary transition-colors">Starting Prices</h3>
                 <ul className="space-y-3 text-left">
-                  <li className="flex justify-between">
+                  <li className="flex justify-between group-hover:translate-x-1 transition-transform duration-300">
                     <span>Wedding Attires</span>
                     <span className="font-semibold">From R3,500</span>
                   </li>
-                  <li className="flex justify-between">
+                  <li className="flex justify-between group-hover:translate-x-1 transition-transform duration-300" style={{ transitionDelay: '100ms' }}>
                     <span>Graduation Gowns</span>
                     <span className="font-semibold">From R1,800</span>
                   </li>
-                  <li className="flex justify-between">
+                  <li className="flex justify-between group-hover:translate-x-1 transition-transform duration-300" style={{ transitionDelay: '200ms' }}>
                     <span>Matric Dance</span>
                     <span className="font-semibold">From R2,200</span>
                   </li>
-                  <li className="flex justify-between">
+                  <li className="flex justify-between group-hover:translate-x-1 transition-transform duration-300" style={{ transitionDelay: '300ms' }}>
                     <span>Traditional Ceremonies</span>
                     <span className="font-semibold">From R2,800</span>
                   </li>
                 </ul>
               </div>
 
-              <div className="bg-gradient-card p-8 rounded-lg border">
-                <h3 className="text-2xl font-semibold mb-4 text-foreground">What You Get</h3>
+              <div className="bg-gradient-card p-8 rounded-lg border hover:shadow-elegant hover:scale-105 hover:-translate-y-2 transition-all duration-300 cursor-pointer group">
+                <h3 className="text-2xl font-semibold mb-4 text-foreground group-hover:text-primary transition-colors">What You Get</h3>
                 <ul className="space-y-3 text-left">
-                  <li className="flex items-center space-x-2">
-                    <Check className="h-4 w-4 text-primary" />
+                  <li className="flex items-center space-x-2 group-hover:translate-x-1 transition-transform duration-300">
+                    <Check className="h-4 w-4 text-primary group-hover:scale-110 group-hover:rotate-12 transition-all duration-300" />
                     <span>Personal consultation</span>
                   </li>
-                  <li className="flex items-center space-x-2">
-                    <Check className="h-4 w-4 text-primary" />
+                  <li className="flex items-center space-x-2 group-hover:translate-x-1 transition-transform duration-300" style={{ transitionDelay: '100ms' }}>
+                    <Check className="h-4 w-4 text-primary group-hover:scale-110 group-hover:rotate-12 transition-all duration-300" />
                     <span>Custom design & sketches</span>
                   </li>
-                  <li className="flex items-center space-x-2">
-                    <Check className="h-4 w-4 text-primary" />
+                  <li className="flex items-center space-x-2 group-hover:translate-x-1 transition-transform duration-300" style={{ transitionDelay: '200ms' }}>
+                    <Check className="h-4 w-4 text-primary group-hover:scale-110 group-hover:rotate-12 transition-all duration-300" />
                     <span>Premium materials</span>
                   </li>
-                  <li className="flex items-center space-x-2">
-                    <Check className="h-4 w-4 text-primary" />
+                  <li className="flex items-center space-x-2 group-hover:translate-x-1 transition-transform duration-300" style={{ transitionDelay: '300ms' }}>
+                    <Check className="h-4 w-4 text-primary group-hover:scale-110 group-hover:rotate-12 transition-all duration-300" />
                     <span>Multiple fittings</span>
                   </li>
-                  <li className="flex items-center space-x-2">
-                    <Check className="h-4 w-4 text-primary" />
+                  <li className="flex items-center space-x-2 group-hover:translate-x-1 transition-transform duration-300" style={{ transitionDelay: '400ms' }}>
+                    <Check className="h-4 w-4 text-primary group-hover:scale-110 group-hover:rotate-12 transition-all duration-300" />
                     <span>Final styling session</span>
                   </li>
                 </ul>
