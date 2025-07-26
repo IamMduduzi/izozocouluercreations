@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-image.jpg";
 import weddingImage from "@/assets/wedding-category.jpg";
 import GraduationImage from "@/assets/Graduation-category.jpg";
-import GatricImage from "@/assets/Matric-dance-category.jpg";
+import MatricImage from "@/assets/Matric-dance-category.jpg";
 
 const Home = () => {
   const featuredWork = [
@@ -21,7 +21,7 @@ const Home = () => {
     },
     {
       title: "Matric Dance Glamour",
-      image: GatricImage,
+      image: MatricImage,
       description: "Make your matric dance unforgettable with our stunning designs."
     }
   ];
