@@ -44,17 +44,17 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Visit Our Studio",
-      details: ["123 Fashion Street", "Johannesburg, 2001", "South Africa"]
+      details: ["Ladysmith, 3370", "South Africa"]
     },
     {
       icon: Phone,
       title: "Call Us",
-      details: ["+27 123 456 789", "+27 987 654 321"]
+      details: "+27 79 063 5095"
     },
     {
       icon: Mail,
       title: "Email Us",
-      details: ["info@izozocouleur.com", "bookings@izozocouleur.com"]
+      details: "lorenciashabalala@gmail.com"
     },
     {
       icon: Clock,
