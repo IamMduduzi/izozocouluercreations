@@ -4,8 +4,8 @@ import { ArrowRight, Sparkles, Heart, Users } from "lucide-react";
 import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-image.jpg";
 import weddingImage from "@/assets/wedding-category.jpg";
-import GraduationImage from "@/assets/Graduation-category.jpg";
-import MatricImage from "@/assets/Matric-dance-category.jpg";
+import graduationImage from "@/assets/matric-dance-category.jpg";
+import matricImage from "@/assets/Matric-dance-category.jpg";
 
 const Home = () => {
   const featuredWork = [
