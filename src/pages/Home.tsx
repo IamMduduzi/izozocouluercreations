@@ -17,7 +17,7 @@ const Home = () => {
     },
     {
       title: "Graduation Excellence",
-      image: GraduationImage,
+      image: graduationImage,
       description: "Celebrate your academic achievements in sophisticated style."
     },
     {
