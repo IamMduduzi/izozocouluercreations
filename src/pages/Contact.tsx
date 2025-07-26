@@ -49,12 +49,12 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Call Us",
-      details: "+27 79 063 5095"
+      details: ["+27 79 063 5095"]
     },
     {
       icon: Mail,
       title: "Email Us",
-      details: "lorenciashabalala@gmail.com"
+      details: ["lorenciashabalala@gmail.com"]
     },
     {
       icon: Clock,
