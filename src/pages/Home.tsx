@@ -4,8 +4,8 @@ import { ArrowRight, Sparkles, Heart, Users } from "lucide-react";
 import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-image.jpg";
 import weddingImage from "@/assets/wedding-category.jpg";
-import graduationImage from "@/assets/Graduation-category.jpg";
-import matricImage from "@/assets/Matric-dance-category.jpg";
+import GraduationImage from "@/assets/Graduation-category.jpg";
+import GatricImage from "@/assets/Matric-dance-category.jpg";
 
 const Home = () => {
   const featuredWork = [
@@ -16,12 +16,12 @@ const Home = () => {
     },
     {
       title: "Graduation Excellence",
-      image: graduationImage,
+      image: GraduationImage,
       description: "Celebrate your academic achievements in sophisticated style."
     },
     {
       title: "Matric Dance Glamour",
-      image: matricImage,
+      image: GatricImage,
       description: "Make your matric dance unforgettable with our stunning designs."
     }
   ];
