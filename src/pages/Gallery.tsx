@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import weddingImage from "@/assets/wedding-category.jpg";
 import graduationImage from "@/assets/graduation-category.jpg";
+import graduation1Image from "@/assets/graduation-category1.jpg";
 import matricImage from "@/assets/matric-dance-category.jpg";
 import matrciImage from "@/assets/matrci-dance.jpg";
 import traditionalImage from "@/assets/traditional-category.jpg";
@@ -61,8 +62,8 @@ const Gallery = () => {
     {
       id: 6,
       category: "graduations",
-      image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=800&q=80",
-      title: "PhD Regalia",
+      image: traditional1Image,
+      title: "Graduation",
       description: "Distinguished doctoral graduation attire"
     },
     {
