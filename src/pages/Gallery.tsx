@@ -50,13 +50,7 @@ const Gallery = () => {
       title: "Matric Dance Elegance",
       description: "Stunning formal wear for the perfect night"
     },
-    {
-      id: 11,
-      category: "matric",
-      image: matricImage,
-      title: "Matric Dance Elegance",
-      description: "Stunning formal wear for the perfect night"
-    },
+  
     {
       id: 4,
       category: "traditional",
@@ -98,6 +92,13 @@ const Gallery = () => {
       image: traditional2Image,
       title: "Heritage Celebration",
       description: "Traditional ceremony outfit for cultural events"
+    },
+      {
+      id: 11,
+      category: "matric",
+      image: matricImage,
+      title: "Matric Dance Elegance",
+      description: "Stunning formal wear for the perfect night"
     },
     {
       id: 9,
