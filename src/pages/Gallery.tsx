@@ -10,7 +10,7 @@ import graduation1Image from "@/assets/gaduation-category1.jpg";
 import graduation2Image from "@/assets/gaduation1.jpg";
 import matricImage from "@/assets/matric-dance-category.jpg";
 import matrciImage from "@/assets/matrci-dance.jpg";
-import matric1Image from "@/assets/matrci1.jpg";
+import matric1Image from "@/assets/matric1.jpg";
 import traditionalImage from "@/assets/traditional-category.jpg";
 import traditional1Image from "@/assets/tradition.jpg";
 import traditional2Image from "@/assets/tradition1.jpg";
