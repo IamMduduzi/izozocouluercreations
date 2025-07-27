@@ -5,7 +5,10 @@ import { Card } from "@/components/ui/card";
 import weddingImage from "@/assets/wedding-category.jpg";
 import graduationImage from "@/assets/graduation-category.jpg";
 import matricImage from "@/assets/matric-dance-category.jpg";
+import matrciImage from "@/assets/matrci-dance-category.jpg";
 import traditionalImage from "@/assets/traditional-category.jpg";
+import traditionalImage from "@/assets/traditional-category.jpg";
+
 
 const Gallery = () => {
   const [activeCategory, setActiveCategory] = useState("all");
@@ -65,7 +68,7 @@ const Gallery = () => {
     {
       id: 7,
       category: "matric",
-      image: "https://images.unsplash.com/photo-1566479179817-7e6d7a4d1b48?auto=format&fit=crop&w=800&q=80",
+      image: matrciImage,
       title: "Modern Formal",
       description: "Contemporary matric dance dress with unique detailing"
     },
