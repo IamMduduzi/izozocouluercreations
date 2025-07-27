@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import weddingImage from "@/assets/wedding-category.jpg";
 import wedding1Image from "@/assets/wedding1.jpg";
+import wedding2Image from "@/assets/marriage.jpg";
 import graduationImage from "@/assets/graduation-category.jpg";
 import graduation1Image from "@/assets/gaduation-category1.jpg";
 import matricImage from "@/assets/matric-dance-category.jpg";
@@ -56,7 +57,7 @@ const Gallery = () => {
     {
       id: 5,
       category: "weddings",
-      image: "https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?auto=format&fit=crop&w=800&q=80",
+      image: wedding2Image,
       title: "Bridesmaid Collection",
       description: "Coordinated bridesmaid dresses in soft pastels"
     },
