@@ -4,7 +4,7 @@ import { ArrowRight, Sparkles, Heart, Users } from "lucide-react";
 import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-image.jpg";
 import weddingImage from "@/assets/wedding-category.jpg";
-import graduationImage from "@/assets/Graduation-category.jpg";
+import graduationImage from "@/assets/graduation-category.jpg";
 import matricImage from "@/assets/matric-dance-category.jpg";
 
 
