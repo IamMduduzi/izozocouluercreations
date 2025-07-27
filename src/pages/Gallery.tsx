@@ -3,12 +3,13 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import weddingImage from "@/assets/wedding-category.jpg";
+import wedding1Image from "@/assets/wedding1.jpg";
 import graduationImage from "@/assets/graduation-category.jpg";
 import gaduation1Image from "@/assets/gaduation-category1.jpg";
 import matricImage from "@/assets/matric-dance-category.jpg";
 import matrciImage from "@/assets/matrci-dance.jpg";
 import traditionalImage from "@/assets/traditional-category.jpg";
-import traditionalImage from "@/assets/traditional-category.jpg";
+import traditionImage from "@/assets/tradition.jpg";
 
 
 const Gallery = () => {
@@ -76,14 +77,14 @@ const Gallery = () => {
     {
       id: 8,
       category: "traditional",
-      image: "https://images.unsplash.com/photo-1583094356554-8c1c2f0e9fb5?auto=format&fit=crop&w=800&q=80",
+      image: tradionImage,
       title: "Heritage Celebration",
       description: "Traditional ceremony outfit for cultural events"
     },
     {
       id: 9,
       category: "weddings",
-      image: "https://images.unsplash.com/photo-1502635385003-ee1e6a1a742d?auto=format&fit=crop&w=800&q=80",
+      image: wedding1Image,
       title: "Vintage Inspired",
       description: "Classic wedding attire with vintage charm"
     }
