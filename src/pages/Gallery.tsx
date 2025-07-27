@@ -7,7 +7,7 @@ import wedding1Image from "@/assets/wedding1.jpg";
 import wedding2Image from "@/assets/marriage.jpg";
 import graduationImage from "@/assets/graduation-category.jpg";
 import graduation1Image from "@/assets/gaduation-category1.jpg";
-import graduation2Image from "@/assets/gaduation1.jpg";
+import graduation2Image from "@/assets/graduation1.jpg";
 import matricImage from "@/assets/matric-dance-category.jpg";
 import matrciImage from "@/assets/matrci-dance.jpg";
 import matric1Image from "@/assets/matric1.jpg";
@@ -99,6 +99,13 @@ const Gallery = () => {
       image: matricImage,
       title: "Matric Dance Elegance",
       description: "Stunning formal wear for the perfect night"
+    },
+     {
+      id: 12,
+      category: "graduations",
+      image: graduation2Image,
+      title: "Academic Excellence",
+      description: "Traditional graduation gown with university colors"
     },
     {
       id: 9,
