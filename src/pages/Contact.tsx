@@ -64,9 +64,9 @@ const Contact = () => {
   ];
 
   const socialLinks = [
-    { icon: Facebook, href: "#", label: "Facebook" },
-    { icon: Instagram, href: "#", label: "Instagram" },
-    { icon: Twitter, href: "#", label: "Twitter" }
+    { icon: Facebook, href: "https://facebook.com/izozocouleurcreations", label: "Facebook" },
+    { icon: Instagram, href: "https://instagram.com/izozocouleurcreations", label: "Instagram" },
+    { icon: Twitter, href: "https://twitter.com/izozocouleur", label: "Twitter" }
   ];
 
   return (
