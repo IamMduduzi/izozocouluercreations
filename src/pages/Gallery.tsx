@@ -9,7 +9,7 @@ import gaduation1Image from "@/assets/gaduation-category1.jpg";
 import matricImage from "@/assets/matric-dance-category.jpg";
 import matrciImage from "@/assets/matrci-dance.jpg";
 import traditionalImage from "@/assets/traditional-category.jpg";
-import traditionImage from "@/assets/tradition.jpg";
+import traditional1Image from "@/assets/tradition.jpg";
 
 
 const Gallery = () => {
@@ -77,7 +77,7 @@ const Gallery = () => {
     {
       id: 8,
       category: "traditional",
-      image: traditionImage,
+      image: tradition1Image,
       title: "Heritage Celebration",
       description: "Traditional ceremony outfit for cultural events"
     },
