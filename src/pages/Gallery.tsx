@@ -77,7 +77,7 @@ const Gallery = () => {
     {
       id: 8,
       category: "traditional",
-      image: traditionalImage,
+      image: traditional1Image,
       title: "Heritage Celebration",
       description: "Traditional ceremony outfit for cultural events"
     },
