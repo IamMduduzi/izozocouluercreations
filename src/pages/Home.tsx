@@ -28,8 +28,8 @@ const Home = () => {
   ];
 
   const stats = [
-    { icon: Heart, value: "500+", label: "Happy Clients" },
-    { icon: Sparkles, value: "1000+", label: "Creations Made" },
+    { icon: Heart, value: "100+", label: "Happy Clients" },
+    { icon: Sparkles, value: "200+", label: "Creations Made" },
     { icon: Users, value: "50+", label: "Special Events" }
   ];
 
@@ -99,7 +99,7 @@ const Home = () => {
                   <img
                     src={work.image}
                     alt={work.title}
-                    className="w-full h-64 object-cover group-hover:scale-110 group-hover:rotate-1 transition-all duration-700"
+                    className="w-full h-64 object-cover object-center group-hover:scale-110 group-hover:rotate-1 transition-all duration-700"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                   <div className="absolute top-4 right-4 w-10 h-10 bg-white/20 rounded-full backdrop-blur-sm flex items-center justify-center opacity-0 group-hover:opacity-100 group-hover:scale-110 transition-all duration-300">

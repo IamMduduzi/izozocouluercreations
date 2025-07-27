@@ -49,7 +49,7 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Call Us",
-      details: ["+27 79 063 5095"]
+      details: ["0796035095"]
     },
     {
       icon: Mail,
