@@ -62,7 +62,7 @@ const Gallery = () => {
     {
       id: 6,
       category: "graduations",
-      image: traditional1Image,
+      image: graduation1Image,
       title: "Graduation",
       description: "Distinguished doctoral graduation attire"
     },
