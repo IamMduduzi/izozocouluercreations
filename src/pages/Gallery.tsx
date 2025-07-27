@@ -5,7 +5,7 @@ import { Card } from "@/components/ui/card";
 import weddingImage from "@/assets/wedding-category.jpg";
 import graduationImage from "@/assets/graduation-category.jpg";
 import matricImage from "@/assets/matric-dance-category.jpg";
-import matrciImage from "@/assets/matrci-dance-category.jpg";
+import matrciImage from "@/assets/matrci-dance.jpg";
 import traditionalImage from "@/assets/traditional-category.jpg";
 import traditionalImage from "@/assets/traditional-category.jpg";
 
