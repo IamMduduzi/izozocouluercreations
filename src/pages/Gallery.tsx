@@ -51,7 +51,7 @@ const Gallery = () => {
       description: "Stunning formal wear for the perfect night"
     },
     {
-      id: 5,
+      id: 11,
       category: "matric",
       image: matricImage,
       title: "Matric Dance Elegance",
