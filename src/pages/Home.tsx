@@ -4,6 +4,7 @@ import { ArrowRight, Sparkles, Heart, Users } from "lucide-react";
 import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-image.jpg";
 import weddingImage from "@/assets/wedding-category.jpg";
+import HomescreenImage from "@/assets/Home-screen.jpg";
 import graduationImage from "@/assets/graduation-category.jpg";
 import matricImage from "@/assets/matric-dance-category.jpg";
 
@@ -39,7 +40,7 @@ const Home = () => {
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url(${heroImage})` }}
+          style={{ backgroundImage: `url(${Homescreen})` }}
         >
           <div className="absolute inset-0 bg-black/40" />
         </div>
