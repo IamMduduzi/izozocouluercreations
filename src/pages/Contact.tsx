@@ -127,7 +127,7 @@ const Contact = () => {
                       type="email"
                       value={formData.email}
                       onChange={(e) => handleInputChange("email", e.target.value)}
-                      placeholder="your.email@example.com"
+                      placeholder="jobe970@gmail.com"
                       required
                     />
                   </div>
