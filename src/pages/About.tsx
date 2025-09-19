@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Heart, Award, Users, Clock } from "lucide-react";
 import { Link } from "react-router-dom";
+import HomescreenImage from "@/assets/Home-screen.jpg";
 
 const About = () => {
   const values = [
@@ -77,7 +78,7 @@ const About = () => {
             <div className="lg:order-first">
               <Card className="overflow-hidden shadow-elegant">
                 <img
-                  src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80"
+                  src={HomescreenImage}
                   alt="Izozo at work"
                   className="w-full h-96 object-cover"
                 />
