@@ -56,10 +56,13 @@ const About = () => {
                   that would define my career and life.
                 </p>
                 <p>
-                  After graduating with a degree in Fashion Design, I noticed a gap in the market for 
-                  beautifully crafted, personalized knitted attires for special occasions. Traditional 
-                  garments were often mass-produced and lacked the personal touch that makes each 
-                  moment truly special.
+                 Although I started out in a completely different field, studying Pharmacy, 
+                  I soon realized that my heart was pulling me elsewhere. At home, everyone had high hopes that I would 
+                  change our situation, but deep down I knew I was still searching for my true passion. 
+                  That journey of self-discovery led me to something I genuinely love creating beautifully crafted, 
+                  personalized knitted outfits. I saw that most garments for special occasions were mass-produced 
+                  and lacked the warmth and individuality people truly cherish. Through knitting,
+                  I found not just a craft, but a way to make every moment feel special and meaningful.
                 </p>
                 <p>
                   In 2018, I took the leap and founded IZozoCouleurCreations. Starting from my small 
